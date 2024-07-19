@@ -1,0 +1,237 @@
+.sidebar {
+  height: 100vh !important;
+  /* border-radius: 5px; */
+  background-color: #2e3200;
+  box-shadow: 0 0 2px gray;
+  color: white;
+}
+
+.menu {
+  padding-top: 100px;
+}
+
+.menu-item {
+  padding-top: 30px;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+  color: white;
+}
+
+.active {
+  background-color: white;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.active a,
+.active i {
+  color: #2e3200;
+}
+
+.rs__bg__light {
+    background-color: lightcyan;
+}
+
+nav.navbar.rs__navbar {
+    background-color: #c63821!important;
+}
+
+.sidebar.rs__sidebar {
+    background-color: #333a42;
+}
+
+.sidebar.rs__sidebar .menu {
+    padding: 12px 0px 0px;
+}
+
+.sidebar.rs__sidebar .menu .menu-item {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid rgb(255 255 255 / 10%);
+}
+
+.sidebar.rs__sidebar .menu .menu-item a {
+    padding: 12px 0px;
+}
+
+nav.navbar.rs__navbar .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+nav.navbar.rs__navbar .container-fluid .navbar-brand {
+    margin: 0px;
+    background-color: transparent!important;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav.navbar.rs__navbar .container-fluid .navbar-brand svg {
+    fill: white;
+    height: 28px;
+    width: 28px;
+}
+nav.navbar.rs__navbar button.btn.btn-danger {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 6px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    border-left: 1px solid white;
+    border-radius: unset;
+}
+
+nav.navbar.rs__navbar button.btn.btn-danger img {
+    filter: invert(1);
+    height: auto;
+    width: 28px;
+}
+
+nav.navbar.rs__navbar p.nav-link {
+    margin: 0px;
+    background-color: transparent!important;
+    position: relative;
+    padding: 16px 60px 8px 0px;
+    border-right: 1px solid white;
+    font-weight: 600;
+}
+
+nav.navbar.rs__navbar a {
+    background-color: transparent!important;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 8px 18px 10px;
+}
+
+nav.navbar.rs__navbar p.nav-link svg {
+    height: auto;
+    width: 26px;
+}
+
+nav.navbar.rs__navbar p.nav-link span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background-color: transparent!important;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.sidebar.rs__sidebar .menu .menu-item.active {
+    margin: 0px;
+}
+
+.col-md-9.rs__col__md__9 {
+    padding: 16px;
+    margin: 20px 0px 0px;
+}
+
+table.table.rs__table {
+    border-collapse: collapse;
+}
+
+table.table.rs__table tr td, table.table.rs__table tr th {
+    border: 1px solid black;
+}
+
+table.table.rs__table thead {
+    background-color: #c63821;
+    color: white;
+}
+.rs__admin__layout h1 i {
+    color: #c63821 !important;
+}
+
+.rs__add__btn__design {
+    width: fit-content;
+    margin: 0px 0px 16px!important;
+    background-color: #c63821;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 14px 10px 16px;
+}
+
+.rs__add__btn__design i {
+    padding: 0px!important;
+    filter: brightness(500);
+}
+
+.rs__blood__group {
+    display: grid!important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+}
+
+.rs__blood__group .card.m-2.p-1 {
+    background-color: transparent!important;
+    width: 100%!important;
+    margin: 0px!important;
+}
+
+.rs__blood__group {
+    display: grid!important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+}
+
+.rs__blood__group .card.m-2.p-1 {
+    background-color: transparent!important;
+    width: 100%!important;
+    margin: 0px!important;
+}
+
+.rs__blood__group .card.m-2.p-1 .card-body {}
+
+.rs__blood__group .card.m-2.p-1 .card-body h1 {
+    display: flex;
+    align-items: center;
+    background-color: transparent!important;
+    justify-content: right;
+    gap: 6px;
+    margin: 0px 0px 24px!important;
+}
+
+.rs__blood__group .card.m-2.p-1 .card-body h1 svg {
+    height: auto;
+    width: 36px;
+    fill: #c63821;
+}
+
+.rs__blood__group .card.m-2.p-1 .card-body p.card-text {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rs__recent__blood__transactions {
+    padding: 0px 50px;
+}
+
+.rs__recent__blood__transactions h1 {
+    font-size: 36px;
+}
